@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;  
+}
+
+.container{
+    border: 2px solid #000;
+    padding: 5px;
+}
+
+.align-content{
+    display: flex;
+    justify-content: center; 
+}
+
+.btn-submit{
+    font-size: 20px;
+    border-radius: 3px;
+    border-color: #000;
+    padding: 4px 15px;
+    margin: 6px;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+}
+
+.txt-input{
+    font-size: 15px;
+    margin: 7px;
+    border-radius: 3px;
+}

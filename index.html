@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lyrics Search</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="align-content">
+                <h1>Lyrics Search</h1>
+            </div>
+            <div>
+                <form id="lyrics-form">
+                    <div class="form-row">
+                        <div>
+                            <label for="artist">Artist</label>
+                            <input class="txt-input" type="text" id="artist" placeholder="Artist">
+                        </div>
+                        <div >
+                            <label for="song">Song</label>
+                            <input class="txt-input" type="text" id="song" placeholder="Song">
+                        </div>
+                    </div>
+                    <div class="align-content">
+                        <button class="btn-submit" onclick="doSubmit()">Let's Sing!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="align-content"> 
+            <pre id="lyrics"> </pre>
+        </div>
+    </body>
+</html>
